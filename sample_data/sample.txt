@@ -1,0 +1,4 @@
+This repository demonstrates a minimal RAG (Retrieval-Augmented Generation) pipeline:
+- It ingests documents and builds a FAISS index using sentence-transformers.
+- It then retrieves relevant chunks for a given question and uses an extractive QA model to answer.
+- The goal is to showcase clean, reproducible, and containerized ML application code.
